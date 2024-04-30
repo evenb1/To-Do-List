@@ -4,5 +4,5 @@ let myDiv = document.getElementsByClassName('todoContainer');
 
 addButton.addEventListener('click', function(){
     let paragraph = document.createElement('p');
-    paragraph.innerHTML = `- ${}`
+    paragraph.innerHTML = `- ${inputValue}`;
 })
