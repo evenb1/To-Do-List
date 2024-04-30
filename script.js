@@ -1,9 +1,15 @@
 let addButton = document.querySelector('button');
-let myDiv = document.getElementsByClassName('todoContainer');
+let myDiv = document.querySelector('.todoContainer');
 
 addButton.addEventListener('click', function(){
     let inputField = document.querySelector('input').value;
     let paragraph = document.createElement('p');
-    paragraph.innerHTML = `- ${inputField}`;
-    document.querySelector('p').appendChild;
+    let removeButton = document.createElement('button');
+    removeButton.textContent = "remove";
+    paragraph.textContent = `- ${inputField}`;
+    paragraph.appendChild(removeButton); 
+    myDiv.appendChild(paragraph);
+})
+removeButton.addEventListener('click', function(){
+    
 })
