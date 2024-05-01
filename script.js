@@ -9,8 +9,8 @@ addButton.addEventListener('click', function(){
     paragraph.textContent = `- ${inputField}`;
     paragraph.appendChild(removeButton); 
     myDiv.appendChild(paragraph);
-})
-removeButton.addEventListener('click', function(){
-    let removePara = document.querySelector('p');
 
+    removeButton.addEventListener('click', function() {
+        myDiv.removeChild(paragraph);
+    });
 })
