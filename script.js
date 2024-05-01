@@ -10,6 +10,6 @@ addButton.addEventListener('click', function(){
     paragraph.appendChild(removeButton); 
     myDiv.appendChild(paragraph);
 })
-removeButton.addEventListener('click', function(){
-    
+removeButton.addEventListener('click' function(){
+
 })
