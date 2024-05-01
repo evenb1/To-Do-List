@@ -11,5 +11,6 @@ addButton.addEventListener('click', function(){
     myDiv.appendChild(paragraph);
 })
 removeButton.addEventListener('click', function(){
-    paragraph.textContent = "";
+    let removePara = document.querySelector('p');
+
 })
