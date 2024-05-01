@@ -1,12 +1,14 @@
 *{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    justify-content: center;
-    align-items: center;
+    
     text-align: center;
 
 }
 .container{
-    box-shadow: 0 0 10px 10px;
+    box-shadow: 0 0 2px 2px;
     width: 200px;
     height: 300px;
+    justify-content: center;
+    align-items: center;
+    
 }
