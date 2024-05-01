@@ -11,5 +11,5 @@ addButton.addEventListener('click', function(){
     myDiv.appendChild(paragraph);
 })
 removeButton.addEventListener('click', function(){
-
+    paragraph.textContent = "";
 })
