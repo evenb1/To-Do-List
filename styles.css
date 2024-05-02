@@ -1,16 +1,14 @@
 *{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    background-color: darkmagenta;
-    text-align: center;
-    color:aliceblue;
+    box-sizing: border-box;
 }
 .container{
-    box-shadow: 0 0 2px 2px;
-    width: 200px;
-    height: 300px;
+    width: 100%;
+    height: 100vh;
     justify-content: center;
     align-items: center;
-
-    
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
 }
 
