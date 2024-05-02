@@ -1,6 +1,7 @@
 *{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     box-sizing: border-box;
+    margin:0;
 }
 .container{
     width: 100%;
@@ -10,5 +11,9 @@
     display: flex;
     border: 1px solid black;
     padding: 10px;
-}
+    background: linear-gradient(90deg, rgba(15,7,138,1) 0%, rgba(126,0,255,1) 100%);
 
+}
+.todoContainer{
+
+}
